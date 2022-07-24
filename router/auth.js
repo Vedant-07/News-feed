@@ -7,10 +7,7 @@ const User = require('../model/userSchema')
 const authenticate = require('./../middleware/authenticate')
 const cookieParser = require('cookie-parser')
 
-router.get('/', (req, res) => {
-    res.send('hello to main page --not loggedd in ')
-    console.log('done');
-})
+//deleted home page router
 
 
 
